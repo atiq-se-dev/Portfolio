@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atiq ur Rehman — Full-Stack Developer & Designer</title>
+  <meta name="description"
+    content="Full-stack developer & digital designer crafting high-performance web experiences." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a class="nav-logo" href="#home" data-goto="home">Atiq<span>.</span>dev</a>
+
+    <ul class="nav-links">
+      <li><a href="#home" data-page="home" class="active">Home</a></li>
+      <li><a href="#services" data-page="services">Services</a></li>
+      <li><a href="#projects" data-page="projects">Projects</a></li>
+      <li><a href="#skills" data-page="skills">Skills</a></li>
+      <li><a href="#contact" data-page="contact">Contact</a></li>
+    </ul>
+
+    <button class="nav-hire-btn" data-goto="contact">Hire Me →</button>
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle" title="Toggle Theme">
+      <div class="tt-track">
+        <div class="tt-thumb">
+          <span class="tt-icon-dark">🌙</span>
+          <span class="tt-icon-light">☀️</span>
+        </div>
+      </div>
+      <span class="tt-label" id="themeLabel">Dark</span>
+    </div>
+
+    <!-- hamburger stays here -->
+    <button class="hamburger" aria-label="Toggle menu">
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+  </nav>
+
+
+  <!-- Home Page -->
+  <div id="home" class="page active">
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+
+      <div class="container">
+        <div class="hero-inner">
+
+          <!-- LEFT -->
+          <div class="hero-left">
+            <div class="hero-badge">
+              <span class="dot"></span>
+              <span>
+                available_for_hire
+              </span>
+            </div>
+
+            <h1 class="hero-title">
+              I Build Digital<br />
+              <span class="grad">Experiences</span><br />
+              <span class="hero-sub-line">that <span class="hero-sub-accent">Actually</span> Work.</span>
+            </h1>
+            <!-- Typing effect -->
+            <div class="typed-wrap">
+              <span class="typed-label">I am a</span>
+              <span class="typed-text" id="typedText"></span>
+              <span class="typed-cursor">|</span>
+            </div>
+
+            <p class="hero-desc">
+              Hi, I'm <strong>Atiq ur Rehman</strong> — a full-stack developer &amp; digital designer who turns complex
+              ideas into clean, fast, and beautiful products people love to use.
+            </p>
+
+            <div class="hero-btns">
+              <button class="btn btn-cyan" data-goto="projects">View My Work →</button>
+              <button class="btn btn-outline" data-goto="contact">Let's Talk</button>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="hero-social">
+              <span class="hero-social-label">Find me on</span>
+              <div class="social-icons">
+                <!-- GitHub -->
+                <a href="#" class="s-icon" title="GitHub">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#" class="s-icon" title="LinkedIn">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                </a>
+                <!-- Twitter/X -->
+                <a href="#" class="s-icon" title="Twitter / X">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
+                </a>
+                <!-- Dribbble -->
+                <a href="#" class="s-icon" title="Dribbble">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.017-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4.01-.814zm-9.81-2.376c.25-.428 3.28-5.464 8.57-7.17.153-.045.308-.09.463-.13a35.164 35.164 0 0 0-.466-1.008c-5.07 1.52-9.99 1.464-10.44 1.456a8.736 8.736 0 0 0-.05 1.29c0 1.67.4 3.25 1.123 4.562zM2.014 11.06c.457.008 4.666.004 9.406-1.258a48.25 48.25 0 0 0-1.717-2.806C5.74 8.86 3.186 8.96 2.876 8.97A8.787 8.787 0 0 0 2.014 11.06zm7.406-5.17a41.888 41.888 0 0 1 1.742 2.84c1.76-.66 3.84-1.652 5.517-2.94-.998-1.445-2.398-2.588-4.055-3.212C12.27 3.13 11.39 4.38 9.42 5.89zm5.716 1.248c-1.765 1.37-3.97 2.4-5.84 3.09.154.316.304.637.45.96l.056.12c2.27-.28 4.56.18 6.794 1.354-.096-2.02-.614-3.93-1.46-5.525z" />
+                  </svg>
+                </a>
+                <!-- WhatsApp -->
+                <a href="#" class="s-icon" title="WhatsApp">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="hero-right">
+            <!-- Spinning ring avatar -->
+            <div class="avatar-ring">
+              <img src="image.png" alt="Atiq ur Rehman" class="hero-photo" />
+              <div class="hero-photo" style="display:none; align-items:center; justify-content:center; font-size:5rem;">
+                👨<img src="" alt=""></div>
+            </div>
+
+            <!-- Quote card -->
+            <div class="bridge-card">
+              <span class="q-icon">"</span>
+              <div class="bc-quote">
+                I bridge the gap between imagination and reality through code and design.
+              </div>
+
+              <div class="bc-divider"></div>
+
+              <!-- Identity -->
+              <div class="bc-identity">
+                <div class="bc-avatar-wrap">
+                  <img src="/mnt/user-data/uploads/1772009813127_image.png" alt="Atiq" class="bc-avatar"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                  <div class="bc-avatar"
+                    style="display:none; align-items:center; justify-content:center; font-size:1.4rem; background:var(--card2);">
+                    👨‍💻</div>
+                </div>
+                <div class="bc-meta">
+                  <div class="bc-name">Atiq ur Rehman</div>
+                  <div class="bc-role">
+                    <span class="bc-role-dot"></span>
+                    Software Engineer · 2+ Years Experience
+                  </div>
+                </div>
+              </div>
+
+              <div class="bc-divider"></div>
+
+
+
+              <!-- Stats -->
+              <div class="hero-stats">
+                <div class="h-stat">
+                  <div class="h-stat-num" data-count="48" data-suffix="+">0</div>
+                  <div class="h-stat-label">Projects</div>
+                </div>
+                <div class="h-stat">
+                  <div class="h-stat-num" data-count="6" data-suffix="yr">0</div>
+                  <div class="h-stat-label">Experience</div>
+                </div>
+                <div class="h-stat">
+                  <div class="h-stat-num" data-count="98" data-suffix="%">0</div>
+                  <div class="h-stat-label">Satisfaction</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- ── TICKER (Brands/Tech) ── -->
+    <div class="ticker-section">
+      <div class="ticker-track">
+        <span class="ticker-item"><span class="ticker-dot"></span> React.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Next.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Node.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> MongoDB</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Figma</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TypeScript</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> PostgreSQL</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> AWS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Shopify</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TailwindCSS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> OpenAI</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Docker</span>
+        <!-- duplicate for seamless loop -->
+        <span class="ticker-item"><span class="ticker-dot"></span> React.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Next.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Node.js</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> MongoDB</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Figma</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TypeScript</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> PostgreSQL</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> AWS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Shopify</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TailwindCSS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> OpenAI</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Docker</span>
+      </div>
+    </div>
+
+    <!-- ── Mini Service── -->
+    <section class="home-services">
+      <div class="container">
+        <div class="reveal" style="text-align:center; margin-bottom:0;">
+
+          <h2 class="section-title">My Digital <span class="grad">Ecosystem</span></h2>
+          <p class="section-sub" style="margin:0 auto; text-align:center;">Tailored digital solutions that turn your
+            vision into reality — from concept to launch.</p>
+        </div>
+
+        <div class="home-svc-grid">
+          <div class="home-svc-card reveal d1">
+            <div class="code-anim">
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+            </div>
+            <div class="hsvc-icon">⚡</div>
+            <h3>Full-Stack Web & Software Development</h3>
+            <p>Building scalable, high-performance web apps using MERN or Next.js. Clean code, fast delivery, and
+              seamless user experiences every time.</p>
+            <div class="svc-tags">
+              <span class="svc-tag">React</span><span class="svc-tag">Next.js</span><span
+                class="svc-tag">Node.js</span><span class="svc-tag">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="home-svc-card reveal d2">
+            <div class="hsvc-icon">🎨</div>
+            <h3>UI/UX & Digital Product Design</h3>
+            <p>Transforming ideas into intuitive, stunning digital designs. From Figma wireframes to high-fidelity
+              prototypes your users will love.</p>
+            <div class="svc-tags">
+              <span class="svc-tag">Figma</span><span class="svc-tag">Prototyping</span><span class="svc-tag">UI
+                Design</span><span class="svc-tag">UX Research</span>
+            </div>
+          </div>
+
+          <div class="home-svc-card reveal d3">
+            <div class="hsvc-icon">📈</div>
+            <h3>Digital Strategy & Automation</h3>
+            <p>Beyond code — SEO, e-commerce, and workflow automation so your business grows while you focus on what
+              matters most.</p>
+            <div class="svc-tags">
+              <span class="svc-tag">SEO</span><span class="svc-tag">E-Commerce</span><span
+                class="svc-tag">Zapier</span><span class="svc-tag">Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── QUOTE BANNER ── -->
+    <div class="quote-banner">
+      <div class="quote-inner">
+        <blockquote>"I bridge the gap between imagination and reality through code and design — every pixel, every
+          function, crafted with intent."</blockquote>
+        <button class="btn btn-cyan" data-goto="contact">Start a Project →</button>
+      </div>
+    </div>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section>
+      <div class="container">
+        <div class="reveal" style="text-align:center;">
+
+          <h2 class="section-title">What Clients <span class="grad">Say</span></h2>
+          <p class="section-sub" style="margin:0 auto; text-align:center;">Real feedback from real clients who trusted
+            me with their vision.</p>
+        </div>
+
+        <div class="testi-grid">
+          <div class="testi-card reveal d1">
+            <div class="testi-stars"><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+            <p class="testi-text">"Atiq delivered a full e-commerce platform in just 3 weeks. The attention to detail in
+              both design and code was exceptional. Our conversions went up 40% after launch!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">S</div>
+              <div>
+                <div class="testi-name">Sarah Johnson</div>
+                <div class="testi-role">CEO, ShopVista</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card reveal d2">
+            <div class="testi-stars"><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+            <p class="testi-text">"The analytics dashboard he built handles millions of data points flawlessly. He
+              doesn't just code — he understands your business and builds accordingly."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">M</div>
+              <div>
+                <div class="testi-name">Marcus Lee</div>
+                <div class="testi-role">CTO, DataPulse</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card reveal d3">
+            <div class="testi-stars"><span class="star">★</span><span class="star">★</span><span
+                class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+            <p class="testi-text">"Our Figma mockups came to life exactly as imagined — pixel-perfect and fully
+              responsive. Atiq's design eye combined with technical skill is rare and invaluable."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">A</div>
+              <div>
+                <div class="testi-name">Aisha Malik</div>
+                <div class="testi-role">Founder, GreenRoots</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA SECTION ── -->
+    <section class="cta-section">
+      <div class="container">
+
+        <h2 class="cta-title">Have a Project in Mind?<br /><span class="grad">Let's Make It Real.</span></h2>
+        <p class="cta-sub">From a landing page to a full SaaS platform — I'm here to bring your idea to life, on time
+          and on budget.</p>
+        <div class="cta-btns">
+          <button class="btn btn-cyan" data-goto="contact">Start a Conversation →</button>
+          <button class="btn btn-outline" data-goto="projects">See My Work</button>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /home -->
+
+
+  <!-- Service Page -->
+  <div id="services" class="page">
+    <section>
+      <div class="container">
+
+        <div class="reveal" style="text-align:center; margin-bottom:0;">
+
+          <h2 class="section-title">How Can I <span class="grad">Help You?</span></h2>
+          <p class="section-sub" style="margin:0 auto; text-align:center;">Tailored digital solutions for your business
+            needs — from code to strategy.</p>
+        </div>
+
+        <div class="svc-cards-full" style="margin-top:3.5rem;">
+          <div class="svc-card reveal d1">
+            <div class="code-anim">
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+              <div class="ca-line"></div>
+            </div>
+            <div class="svc-icon">⚡</div>
+            <h3>Full-Stack Web & Software Development</h3>
+            <p class="svc-vibe">Vibe: Coding, Logic, and Performance.</p>
+            <p>Building scalable, high-performance web applications using modern stacks like MERN (MongoDB, Express,
+              React, Node.js) or Next.js. I focus on clean code and seamless user experiences.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">React</span><span class="svc-tag">Next.js</span><span
+                class="svc-tag">Node.js</span><span class="svc-tag">MongoDB</span><span class="svc-tag">Express</span>
+            </div>
+          </div>
+
+          <div class="svc-card reveal d2">
+            <div class="svc-icon">🎨</div>
+            <h3>UI/UX & Digital Product Design</h3>
+            <p class="svc-vibe">Vibe: Creativity, Colors, and User Flow.</p>
+            <p>Transforming complex ideas into intuitive digital designs. From Figma wireframes to high-fidelity
+              prototypes, I ensure your product looks stunning and works effortlessly for your users.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">Figma</span><span class="svc-tag">Prototyping</span><span class="svc-tag">UI
+                Design</span><span class="svc-tag">UX Research</span>
+            </div>
+          </div>
+
+          <div class="svc-card reveal d3">
+            <div class="svc-icon">📈</div>
+            <h3>Digital Strategy & Automation</h3>
+            <p class="svc-vibe">Vibe: Growth, SEO, and Efficiency.</p>
+            <p>Beyond code, I help businesses grow. From SEO optimization and E-commerce setup to Workflow Automation
+              (Zapier/Scripts), I handle the digital heavy lifting so you can focus on your business.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">SEO</span><span class="svc-tag">E-Commerce</span><span
+                class="svc-tag">Zapier</span><span class="svc-tag">Automation</span>
+            </div>
+          </div>
+
+          <div class="svc-card reveal d1">
+            <div class="svc-icon">📱</div>
+            <h3>Mobile App Development</h3>
+            <p class="svc-vibe">Vibe: Native Feel, Cross-Platform Power.</p>
+            <p>Cross-platform mobile apps with React Native that feel truly native on both iOS and Android. Fast,
+              offline-capable, and built to scale with your user base.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">React Native</span><span class="svc-tag">Firebase</span><span
+                class="svc-tag">iOS</span><span class="svc-tag">Android</span>
+            </div>
+          </div>
+
+          <div class="svc-card reveal d2">
+            <div class="svc-icon">🔍</div>
+            <h3>SEO & Web Performance</h3>
+            <p class="svc-vibe">Vibe: Speed, Rankings, and Visibility.</p>
+            <p>Technical SEO audits, Core Web Vitals optimization, and lighthouse score improvements. Your site will
+              rank higher and load faster than your competitors.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">Technical SEO</span><span class="svc-tag">Core Web Vitals</span><span
+                class="svc-tag">Analytics</span>
+            </div>
+          </div>
+
+          <div class="svc-card reveal d3">
+            <div class="svc-icon">🤖</div>
+            <h3>AI Integration</h3>
+            <p class="svc-vibe">Vibe: Intelligence, Automation, Future.</p>
+            <p>Embedding AI into your products — chatbots, content generation, recommendation engines, and smart
+              automation using OpenAI, Gemini, and custom ML pipelines.</p>
+            <div class="svc-tags" style="margin-top:1.25rem;">
+              <span class="svc-tag">OpenAI</span><span class="svc-tag">LangChain</span><span
+                class="svc-tag">Python</span><span class="svc-tag">ML</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bridge Section with real photo -->
+        <div class="bridge-section reveal">
+          <div class="bridge-photo-wrap">
+            <img src="image.png" alt="Atiq ur Rehman" class="bridge-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="bridge-photo"
+              style="display:none; align-items:center; justify-content:center; font-size:4rem; border-radius:50%; background:var(--card2);">
+              👨‍💻</div>
+            <div class="bridge-name">Atiq ur Rehman<br /><span style="color:var(--cyan)">Full-Stack Dev &
+                Designer</span></div>
+          </div>
+          <div>
+            <p class="bridge-quote-text">"I bridge the gap between imagination and reality through code and design."</p>
+            <p class="bridge-body">Every project is a commitment to quality — whether it's a startup MVP, a brand
+              redesign, or a full enterprise platform. I don't just build; I partner with you to bring your vision to
+              life with precision and passion.</p>
+          </div>
+        </div>
+
+        <!-- Process -->
+        <div class="process-wrap">
+          <div class="process-head reveal">
+            <span class="section-tag">workflow</span>
+            <h2 class="section-title">My Process</h2>
+          </div>
+          <div class="process-steps">
+            <div class="p-step reveal d1">
+              <div class="p-num">01</div>
+              <h3>Discovery</h3>
+              <p>Deep dive into your goals, users, and constraints. I ask the hard questions so nothing is missed.</p>
+            </div>
+            <div class="p-step reveal d2">
+              <div class="p-num">02</div>
+              <h3>Design</h3>
+              <p>Wireframes and high-fidelity prototypes with continuous feedback so you see it before it's built.</p>
+            </div>
+            <div class="p-step reveal d3">
+              <div class="p-num">03</div>
+              <h3>Develop</h3>
+              <p>Clean, tested, scalable code. Weekly demos and full transparency throughout the build.</p>
+            </div>
+            <div class="p-step reveal d4">
+              <div class="p-num">04</div>
+              <h3>Launch & Support</h3>
+              <p>Smooth deployment, QA, and post-launch support. I'm here even after the product ships.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div><!-- /services -->
+
+
+  <!-- Page Project -->
+  <div id="projects" class="page">
+    <section>
+      <div class="container">
+
+        <div class="reveal">
+
+          <h2 class="section-title">Work that <span class="grad">Speaks</span> for Itself</h2>
+          <p class="section-sub">A curated selection of projects — web apps, mobile, e-commerce, and AI.</p>
+        </div>
+
+        <div class="proj-grid">
+          <div class="proj-card reveal d1">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#0a1628,#1a3a5c);">🛍️</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">Stripe</span><span
+                  class="proj-tag">Node.js</span></div>
+              <h3>ShopVista E-Commerce</h3>
+              <p>Full-featured marketplace with real-time inventory, Stripe payments, and admin dashboard. 40% lift in
+                conversions post-launch.</p>
+            </div>
+          </div>
+
+          <div class="proj-card reveal d2">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#0d1a2e,#1a2e4a);">📊</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">D3.js</span><span
+                  class="proj-tag">PostgreSQL</span></div>
+              <h3>DataPulse Analytics</h3>
+              <p>Real-time SaaS analytics dashboard with complex data visualisations and role-based access control.</p>
+            </div>
+          </div>
+
+          <div class="proj-card reveal d3">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#1a0d3a,#2d1a5e);">🎵</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">React Native</span><span class="proj-tag">Firebase</span>
+              </div>
+              <h3>Wavify Music App</h3>
+              <p>Cross-platform streaming app with offline support and AI-generated playlists. 10k+ downloads in month
+                one.</p>
+            </div>
+          </div>
+
+          <div class="proj-card reveal d1">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#0a2010,#1a4025);">🏠</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">Figma</span><span class="proj-tag">React</span><span
+                  class="proj-tag">Maps API</span></div>
+              <h3>NestFind Real Estate</h3>
+              <p>Property listing platform with interactive map search and mortgage calculator. 60% better mobile
+                usability.</p>
+            </div>
+          </div>
+
+          <div class="proj-card reveal d2">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#1a1000,#3a2800);">🌿</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">Shopify</span><span class="proj-tag">Liquid</span><span
+                  class="proj-tag">JS</span></div>
+              <h3>GreenRoots Brand & Store</h3>
+              <p>End-to-end brand identity and custom Shopify theme for an organic skincare brand. Launched in 3 weeks.
+              </p>
+            </div>
+          </div>
+
+          <div class="proj-card reveal d3">
+            <div class="proj-thumb">
+              <div class="proj-bg" style="background:linear-gradient(135deg,#1a0010,#3a0025);">🤖</div>
+              <div class="proj-over"><a href="#" class="proj-link">View Project →</a></div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">OpenAI</span><span
+                  class="proj-tag">React</span></div>
+              <h3>HireBot AI Recruiter</h3>
+              <p>AI-powered recruitment platform screening CVs and generating candidate reports. Reduced time-to-hire by
+                50%.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-cta reveal">
+          <p>Have a project in mind? Let's make it happen.</p>
+          <button class="btn btn-cyan" data-goto="contact">Start a Conversation →</button>
+        </div>
+
+      </div>
+    </section>
+  </div><!-- /projects -->
+
+
+  <!-- Page Skills -->
+  <div id="skills" class="page">
+    <section>
+      <div class="container">
+
+        <div class="reveal">
+
+          <h2 class="section-title">My <span class="grad">Skills</span> & Expertise</h2>
+          <p class="section-sub">A snapshot of my technical proficiency across development, design, and strategy.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="sk-cat reveal d1">
+            <div class="sk-head">
+              <div class="sk-ico">🖥️</div>
+              <div>
+                <h3>Frontend Development</h3>
+                <p>Building interfaces users love</p>
+              </div>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">React / Next.js</span><span class="sk-pct">95%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="95%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">TypeScript</span><span class="sk-pct">88%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">CSS / Tailwind</span><span class="sk-pct">92%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="92%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">HTML5</span><span class="sk-pct">98%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="98%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sk-cat reveal d2">
+            <div class="sk-head">
+              <div class="sk-ico">⚙️</div>
+              <div>
+                <h3>Backend Development</h3>
+                <p>Scalable APIs and databases</p>
+              </div>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Node.js / Express</span><span class="sk-pct">90%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">MongoDB</span><span class="sk-pct">85%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">PostgreSQL</span><span class="sk-pct">80%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">REST / GraphQL APIs</span><span class="sk-pct">88%</span>
+                </div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sk-cat reveal d3">
+            <div class="sk-head">
+              <div class="sk-ico">🎨</div>
+              <div>
+                <h3>UI/UX Design</h3>
+                <p>Design systems and prototypes</p>
+              </div>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Figma</span><span class="sk-pct">93%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="93%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">UX Research</span><span class="sk-pct">80%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Prototyping</span><span class="sk-pct">87%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="87%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Design Systems</span><span class="sk-pct">85%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sk-cat reveal d4">
+            <div class="sk-head">
+              <div class="sk-ico">📈</div>
+              <div>
+                <h3>Digital Strategy</h3>
+                <p>Growth, SEO & automation</p>
+              </div>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">SEO Optimization</span><span class="sk-pct">88%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">E-Commerce Strategy</span><span class="sk-pct">82%</span>
+                </div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="82%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Workflow Automation</span><span class="sk-pct">78%</span>
+                </div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="78%"></div>
+                </div>
+              </div>
+              <div class="sk-row">
+                <div class="sk-top"><span class="sk-name">Analytics & CRO</span><span class="sk-pct">80%</span></div>
+                <div class="sk-track">
+                  <div class="sk-fill" data-width="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools-wrap">
+          <div class="tools-head reveal">
+
+            <h2 class="section-title">Tools & Technologies</h2>
+          </div>
+          <div class="tools-grid reveal">
+            <div class="tool-badge"><span class="tb-ico">⚛️</span> React</div>
+            <div class="tool-badge"><span class="tb-ico">▲</span> Next.js</div>
+            <div class="tool-badge"><span class="tb-ico">🟢</span> Node.js</div>
+            <div class="tool-badge"><span class="tb-ico">🟨</span> JavaScript</div>
+            <div class="tool-badge"><span class="tb-ico">🔷</span> TypeScript</div>
+            <div class="tool-badge"><span class="tb-ico">🍃</span> MongoDB</div>
+            <div class="tool-badge"><span class="tb-ico">🐘</span> PostgreSQL</div>
+            <div class="tool-badge"><span class="tb-ico">🎨</span> Figma</div>
+            <div class="tool-badge"><span class="tb-ico">🐳</span> Docker</div>
+            <div class="tool-badge"><span class="tb-ico">☁️</span> AWS</div>
+            <div class="tool-badge"><span class="tb-ico">🔥</span> Firebase</div>
+            <div class="tool-badge"><span class="tb-ico">💨</span> Tailwind CSS</div>
+            <div class="tool-badge"><span class="tb-ico">🛒</span> Shopify</div>
+            <div class="tool-badge"><span class="tb-ico">🤖</span> OpenAI API</div>
+            <div class="tool-badge"><span class="tb-ico">⚡</span> Zapier</div>
+            <div class="tool-badge"><span class="tb-ico">📊</span> GA4 / Analytics</div>
+            <div class="tool-badge"><span class="tb-ico">🐱</span> GitHub</div>
+            <div class="tool-badge"><span class="tb-ico">🐍</span> Python</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div><!-- /skills -->
+
+
+  <!-- Page Contact -->
+  <div id="contact" class="page">
+    <section>
+      <div class="container">
+
+        <div class="reveal">
+
+          <h2 class="section-title">Let's Build Something <span class="grad">Great</span></h2>
+          <p class="section-sub">Have a project? A question? Or just want to say hi? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Info -->
+          <div class="reveal">
+            <h3 class="ci-title">Get In Touch</h3>
+            <p class="ci-desc">Fill out the form and I'll respond within 24 hours. Prefer a direct message? Hit me up on
+              WhatsApp or LinkedIn.</p>
+
+            <!-- Email -->
+            <div class="c-detail">
+              <div class="c-ico">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+              </div>
+              <div class="c-text"><span>Email</span><strong>atiq@atiqdev.com</strong></div>
+            </div>
+
+            <!-- Phone -->
+            <div class="c-detail">
+              <div class="c-ico">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg>
+              </div>
+              <div class="c-text"><span>Phone</span><strong>+92 300 000 0000</strong></div>
+            </div>
+
+            <!-- Location -->
+            <div class="c-detail">
+              <div class="c-ico">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+              </div>
+              <div class="c-text"><span>Location</span><strong>Pakistan — Open to Remote</strong></div>
+            </div>
+
+            <!-- Response time -->
+            <div class="c-detail">
+              <div class="c-ico">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" />
+                </svg>
+              </div>
+              <div class="c-text"><span>Response Time</span><strong>Within 24 hours</strong></div>
+            </div>
+
+            <!-- Social Links with SVG icons -->
+            <div class="social-section">
+              <p>Connect with me</p>
+              <div class="social-row">
+                <a href="#" class="soc-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                  GitHub
+                </a>
+                <a href="#" class="soc-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                  LinkedIn
+                </a>
+                <a href="#" class="soc-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                  </svg>
+                  WhatsApp
+                </a>
+                <a href="#" class="soc-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
+                  Twitter
+                </a>
+                <a href="#" class="soc-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                  </svg>
+                  Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="c-form reveal d2">
+            <h3>Send a Message</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Atiq" required />
+                  <span class="field-error">First name is required.</span>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Rehman" required />
+                  <span class="field-error">Last name is required.</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                <span class="field-error">Enter a valid email address.</span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+92 300 000 0000" />
+                <span class="field-error">Enter a valid phone number.</span>
+              </div>
+              <div class="form-group">
+                <label for="service">Service Interested In *</label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="fullstack">Full-Stack Web Development</option>
+                  <option value="uiux">UI/UX Design</option>
+                  <option value="mobile">Mobile App</option>
+                  <option value="ecommerce">E-Commerce</option>
+                  <option value="seo">SEO & Strategy</option>
+                  <option value="automation">Workflow Automation</option>
+                  <option value="ai">AI Integration</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="field-error">Please select a service.</span>
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="" disabled selected>Select budget…</option>
+                  <option>Under $1,000</option>
+                  <option>$1,000 – $5,000</option>
+                  <option>$5,000 – $15,000</option>
+                  <option>$15,000 – $50,000</option>
+                  <option>$50,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project, goals, and timeline…"
+                  required></textarea>
+                <span class="field-error">Message must be at least 20 characters.</span>
+              </div>
+              <button type="submit" class="form-submit">🚀 Send Message</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div><!-- /contact -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Col 1: Brand -->
+          <div class="footer-brand">
+            <div class="footer-logo">Atiq<span>.</span>dev</div>
+            <p class="footer-tagline">Turning ideas into impactful digital experiences — one line of code at a time.</p>
+            <div class="footer-social">
+              <a href="#" class="fs-icon" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+              </a>
+              <a href="#" class="fs-icon" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a href="#" class="fs-icon" title="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                </svg>
+              </a>
+              <a href="#" class="fs-icon" title="Twitter / X">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+              <a href="#" class="fs-icon" title="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2: Services -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Services</h4>
+            <ul class="footer-list">
+              <li><a href="#services" data-goto="services">⚡ Full-Stack Development</a></li>
+              <li><a href="#services" data-goto="services">🎨 UI/UX Design</a></li>
+              <li><a href="#services" data-goto="services">📈 Digital Strategy</a></li>
+              <li><a href="#services" data-goto="services">📱 Mobile Apps</a></li>
+              <li><a href="#services" data-goto="services">🤖 AI Integration</a></li>
+              <li><a href="#services" data-goto="services">🔍 SEO & Performance</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Let's Work Together -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Let's Work Together</h4>
+            <div class="footer-contact-items">
+              <div class="fci">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+                <span>atiq@atiqdev.com</span>
+              </div>
+              <div class="fci">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg>
+                <span>+92 300 000 0000</span>
+              </div>
+              <div class="fci">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Pakistan — Open to Remote</span>
+              </div>
+            </div>
+
+            <!-- Availability badge -->
+            <div class="footer-avail">
+              <span class="avail-dot"></span>
+              Available for new projects
+            </div>
+
+            <button class="footer-cta-btn" data-goto="contact">Start a Project →</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p>© 2026 <strong>Atiq ur Rehman</strong>. Crafted with ❤️ & ☕</p>
+          <div class="footer-tech-stack">
+            <s <!-- TOAST -->
+              <div class="toast" id="toast">
+                <span class="toast-icon" id="toastIcon">✅</span>
+                <span class="toast-msg" id="toastMsg">Message sent!</span>
+              </div>
+
+
+              <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+              <script>
+                emailjs.init("1Yz6Gzg9WPR_LTBWn");
+              </script>
+
+              <script src="main.js"></script>
+</body>
+
+</html>
